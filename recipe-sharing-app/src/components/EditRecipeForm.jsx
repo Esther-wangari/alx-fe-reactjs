@@ -3,13 +3,11 @@ import { useRecipeStore } from '../store/recipeStore';
 
 const EditRecipeForm = ({ recipe }) => {
   const updateRecipe = useRecipeStore((state) => state.updateRecipe);
-
   const [title, setTitle] = useState(recipe.title);
   const [description, setDescription] = useState(recipe.description);
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
     updateRecipe({
       id: recipe.id,
       title,
@@ -18,22 +16,20 @@ const EditRecipeForm = ({ recipe }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit} style={{ marginTop: '20px' }}>
+    <form onSubmit={handleSubmit}>
       <h3>Edit Recipe</h3>
 
       <input
         value={title}
         onChange={(e) => setTitle(e.target.value)}
-        style={{ display: 'block', marginBottom: '10px' }}
       />
 
       <textarea
         value={description}
         onChange={(e) => setDescription(e.target.value)}
-        style={{ display: 'block', marginBottom: '10px' }}
       />
 
-      <button type="submit">Update Recipe</button>
+      <button type="submit">Update</button>
     </form>
   );
 };
