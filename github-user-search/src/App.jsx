@@ -1,14 +1,11 @@
-//redeploy trigger
-import Search from "./components/Search";
 function App() {
   return (
-    <div className="min-h-screen bg-gray-100">
-      <h1 className="text-3xl font-bold text-center py-6">
-        GitHub User Search
-      </h1>
-      <Search />
+    <div style={{ padding: '20px' }}>
+      <h1>GitHub User Search</h1>
+      <p>Search for GitHub users using the GitHub API</p>
     </div>
   );
 }
 
 export default App;
+
