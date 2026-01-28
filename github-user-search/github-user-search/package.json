@@ -1,4 +1,3 @@
-
 {
   "name": "github-user-search",
   "private": true,
@@ -11,7 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+<<<<<<< HEAD
     "axios": "^1.13.3",
+=======
+>>>>>>> b652345 (Initial commit: GitHub User Search setup)
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   },
