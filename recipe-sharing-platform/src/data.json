@@ -3,18 +3,40 @@
     "id": 1,
     "title": "Spaghetti Carbonara",
     "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
-    "image": "https://via.placeholder.com/300"
+    "image": "https://via.placeholder.com/300",
+    "ingredients": [
+      "200g spaghetti",
+      "100g bacon",
+      "2 eggs",
+      "50g Parmesan cheese",
+      "Black pepper"
+    ],
+    "instructions": [
+      "Cook spaghetti until al dente.",
+      "Fry bacon until crispy.",
+      "Beat eggs and mix with cheese.",
+      "Combine spaghetti, bacon, and egg mixture.",
+      "Season with black pepper and serve."
+    ]
   },
   {
     "id": 2,
     "title": "Chicken Tikka Masala",
     "summary": "Chunks of grilled chicken cooked in a creamy tomato based gravy.",
-    "image": "https://via.placeholder.com/300"
-  },
-  {
-    "id": 3,
-    "title": "Vegetable Stir Fry",
-    "summary": "A healthy mix of vegetables sautéed in a savory soy sauce.",
-    "image": "https://via.placeholder.com/300"
+    "image": "https://via.placeholder.com/300",
+    "ingredients": [
+      "500g chicken",
+      "1 cup yogurt",
+      "2 tbsp tikka masala spice",
+      "1 onion",
+      "200ml tomato puree"
+    ],
+    "instructions": [
+      "Marinate chicken with yogurt and spice.",
+      "Grill chicken until cooked.",
+      "Sauté onions, add tomato puree and spices.",
+      "Add grilled chicken to the sauce.",
+      "Simmer for 10 minutes and serve."
+    ]
   }
 ]
